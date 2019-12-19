@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "setting up for auth, testing, session and cookies ",
   "main": "index.js",
-  "repository": "https://github.com/AMC-ai/webauth-i-challenge.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMC-ai/webauth-i-challenge.git"
+  },
   "author": "AMC <53350942+AMC-ai@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
@@ -27,5 +30,10 @@
     "knex-cleaner": "^1.3.0",
     "pg": "^7.15.0",
     "sqlite3": "^4.1.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/AMC-ai/webauth-i-challenge/issues"
+  },
+  "homepage": "https://github.com/AMC-ai/webauth-i-challenge#readme",
+  "keywords": []
 }
